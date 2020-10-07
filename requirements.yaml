@@ -5,3 +5,6 @@ dependencies:
     condition: mariadb.enabled
     tags:
       - wordpress-database
+  - name: nginx-ingress
+  version: 1.41.2
+  repository: https://kubernetes-charts.storage.googleapis.com  
